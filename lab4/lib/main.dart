@@ -14,10 +14,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Lab 4 - Flutter UI',
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: CoreWidgetsDemo(),       
-      // home: InputControlsDemo(),     
-      // home: LayoutDemo(),           
-      // home: AppStructureThemeDemo(),
+      // home: CoreWidgetsDemo(),       
+      home: InputControlsDemo(),
+//       home: LayoutDemo(),
+//       home: AppStructureThemeDemo(),
     );
   }
 }
